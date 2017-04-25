@@ -12,6 +12,7 @@
 		E13309601EAE4C0F000B8D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E133095E1EAE4C0F000B8D05 /* Main.storyboard */; };
 		E13309621EAE4C0F000B8D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13309611EAE4C0F000B8D05 /* Assets.xcassets */; };
 		E13309651EAE4C0F000B8D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13309631EAE4C0F000B8D05 /* LaunchScreen.storyboard */; };
+		E133096D1EAE7009000B8D05 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E133096C1EAE7009000B8D05 /* License.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E13309611EAE4C0F000B8D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E13309641EAE4C0F000B8D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E13309661EAE4C0F000B8D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E133096C1EAE7009000B8D05 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E13309611EAE4C0F000B8D05 /* Assets.xcassets */,
 				E13309631EAE4C0F000B8D05 /* LaunchScreen.storyboard */,
 				E13309661EAE4C0F000B8D05 /* Info.plist */,
+				E133096C1EAE7009000B8D05 /* License.rtf */,
 			);
 			path = "SUT-Teen";
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E133096D1EAE7009000B8D05 /* License.rtf in Resources */,
 				E13309651EAE4C0F000B8D05 /* LaunchScreen.storyboard in Resources */,
 				E13309621EAE4C0F000B8D05 /* Assets.xcassets in Resources */,
 				E13309601EAE4C0F000B8D05 /* Main.storyboard in Resources */,
@@ -266,7 +270,7 @@
 				DEVELOPMENT_TEAM = V557P27AM6;
 				INFOPLIST_FILE = "SUT-Teen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aorjoa.SUT-Teen";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aorjoa.sutteen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +283,7 @@
 				DEVELOPMENT_TEAM = V557P27AM6;
 				INFOPLIST_FILE = "SUT-Teen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aorjoa.SUT-Teen";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aorjoa.sutteen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
